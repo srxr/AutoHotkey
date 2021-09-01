@@ -12,6 +12,8 @@
 GroupAdd,cn,ahk_exe QQ.exe
 GroupAdd,cn,ahk_exe WINWORD.EXE
 GroupAdd,cn,ahk_exe XMind.exe
+GroupAdd,cn,ahk_exe WXWork.exe
+GroupAdd,cn,ahk_exe Typora.exe
 
 ;英文输入法的分组
 GroupAdd,en,ahk_exe Xshell.exe
@@ -19,12 +21,14 @@ GroupAdd,en,ahk_exe sublime_text.exe
 GroupAdd,en,ahk_exe PhpStorm64.exe  ;PhpStorm
 GroupAdd,en,ahk_exe ConEmu.exe ;ConEmu.exe
 GroupAdd,en,ahk_exe ConEmu64.exe ;ConEmu.exe
-GroupAdd,en,ahk_class ConsoleWindowClass ;Windows 终端
+GroupAdd,en,ahk_exe cmd.exe ;Windows 终端
+GroupAdd,en,ahk_exe WindowsTerminal.exe ;Windows Terminal
+GroupAdd,en,ahk_exe heidisql.exe ;HeidiSQL
 
 ;编辑器分组
 GroupAdd,editor,ahk_exe PhpStorm64.exe  ;PhpStorm
 GroupAdd,editor,ahk_exe sublime_text.exe ;Sublime Text
-GroupAdd,editor,ahk_exe ConEmu.exe ;ConEmu.exe
+GroupAdd,editor,ahk_exe Code.exe ;VS Code
 
 
 ;函数
